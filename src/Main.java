@@ -14,7 +14,7 @@ public class Main {
         System.out.println("Input your second number.");
         int secondInt = intScanner.nextInt();
 
-        blackjack.blackjack(firstInt,secondInt);
+        System.out.println(blackjack.blackjack(firstInt,secondInt));
 
     }
 }
